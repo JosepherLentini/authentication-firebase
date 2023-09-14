@@ -1,0 +1,63 @@
+@mixin flex($gap) {
+  display: flex;
+  gap: $gap;
+}
+
+@mixin flexColumn($gap) {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+}
+@mixin flexAlignCenter($gap) {
+  display: flex;
+  align-items: center;
+  gap: $gap;
+}
+
+@mixin flexJusifyBetween($gap) {
+  display: flex;
+  justify-content: space-between;
+  gap: $gap;
+}
+
+@mixin flexJustifyAround($gap) {
+  display: flex;
+  justify-content: space-around;
+  gap: $gap;
+}
+
+@mixin flexJustifyCenter($gap) {
+  display: flex;
+  justify-content: center;
+  gap: $gap;
+}
+@mixin flexAlignCenter($gap) {
+  display: flex;
+  align-items: center;
+  gap: $gap;
+}
+
+@mixin flexJustifyStart($gap) {
+  display: flex;
+  justify-content: start;
+  gap: $gap;
+}
+
+@mixin flexCenter($gap) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: $gap;
+}
+
+@mixin mainContainerDimension {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+@mixin positionCenter {
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}

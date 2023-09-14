@@ -1,0 +1,53 @@
+//text
+$error: #FF860D;
+$title: #00a7b3;
+
+//backgrounds
+
+$blue: rgba(0, 27, 54, 1);
+$bluewater: #007780;
+%background-auth {
+  background: rgb(0, 98, 105);
+  background: linear-gradient(
+    198deg,
+    rgba(0, 98, 105, 1) 0%,
+    rgba(0, 27, 54, 1) 50%,
+    rgba(0, 98, 105, 1) 100%
+  );
+}
+
+%background-input-sign {
+  background: rgba(255, 255, 255, 0.12);
+  
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.4px);
+  -webkit-backdrop-filter: blur(2.4px);
+}
+
+%background-button-sign-create {
+  background: rgba(0, 205, 116, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.2px);
+  -webkit-backdrop-filter: blur(2.2px);
+  border: 1px solid rgba(0, 205, 116, 0.58);
+}
+
+%background-button-sign-login {
+  background: rgba(0, 201, 201, 0.28);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.6px);
+  -webkit-backdrop-filter: blur(2.6px);
+  border: 1px solid rgba(0, 201, 201, 0.58);
+}
+
+%background-switch-button {
+  background: rgba(0, 171, 171, 0.53);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.8px);
+  -webkit-backdrop-filter: blur(2.8px);
+  border: 1px solid rgba(0, 171, 171, 0.71);
+  
+}
