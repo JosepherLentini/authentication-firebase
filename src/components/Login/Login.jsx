@@ -30,7 +30,7 @@ const Login = ({ show, setLogInError, loginError, setSwithcAuth }) => {
   };
 
   const signInPopup = () => {
-    signInWithPopup(auth, provider));
+    signInWithPopup(auth, provider)
   };
   return (
     <form
