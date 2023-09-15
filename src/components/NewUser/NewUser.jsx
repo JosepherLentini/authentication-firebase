@@ -68,7 +68,7 @@ const NewUser = ({ show }) => {
         <input type="submit" value="Create" />
         {errorCredential && (
           <div className={styles.error}>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Add the correct credentials
           </div>
         )}
 
