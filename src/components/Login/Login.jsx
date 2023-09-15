@@ -29,8 +29,8 @@ const Login = ({ show, setLogInError, loginError, setSwithcAuth }) => {
     e.target[1].value = "";
   };
 
-  const signInPopup = async () => {
-    await signInWithPopup(auth, provider));
+  const signInPopup = () => {
+    signInWithPopup(auth, provider));
   };
   return (
     <form
