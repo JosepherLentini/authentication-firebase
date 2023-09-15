@@ -40,8 +40,8 @@ const NewUser = ({ show }) => {
     e.target[1].value = "";
   };
 
-    const signInPopup = () => {
-      signInWithPopup(auth, provider);
+    const signInPopup = async () => {
+      await signInWithPopup(auth, provider);
     };
 
   return (
